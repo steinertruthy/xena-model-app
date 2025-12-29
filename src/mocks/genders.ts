@@ -1,0 +1,17 @@
+export const genders: {
+  id: string;
+  name: string;
+}[] = [
+  {
+    id: "1",
+    name: "Male",
+  },
+  {
+    id: "2",
+    name: "Female",
+  },
+  {
+    id: "3",
+    name: "Trans",
+  },
+];
