@@ -1,6 +1,6 @@
 import * as SecureStore from "expo-secure-store";
 
-type TKey = "accessToken" | "refreshToken";
+type TKey = "accessToken" | "refreshToken" | "mobileConfig";
 
 export class SecureStoreUtils {
   setItem(
